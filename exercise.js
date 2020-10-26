@@ -37,5 +37,10 @@ var name = 'juliano acuña'
 var resultName = name.substring(0,1).toUpperCase() + name.substring(1,13).toLowerCase()
 console.log(resultName)
 
+// e) Crear una variable de tipo string con al menos 10 caracteres y algún espacio en blanco. Encontrar la posición del primer espacio en blanco y guardarla en una variable (utilizar indexOf).
+var name = 'Juliano Acuña'
+var resultName = name.indexOf(" ")
+console.log(resultName)
+
 
 
