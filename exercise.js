@@ -42,5 +42,9 @@ var name = 'Juliano Acuña'
 var resultName = name.indexOf(" ")
 console.log(resultName)
 
+//Crear una variable de tipo string con al menos 2 palabras largas (10 caracteres y algún espacio entre medio). Utilizar los métodos de los ejercicios anteriores para generar un nuevo string que tenga la primera letra de ambas palabras en mayúscula y las demás letras en minúscula (utilizar indexOf, substring, toUpperCase, toLowerCase y el operador +).
+var name = 'juliano acuña'
+var resultName = name.substring(0,1).toUpperCase() + name.substring(1,8).toLowerCase() + name.substring(8,9).toUpperCase() + name.substring(9,13).toLowerCase()
+console.log(resultName)
 
-
+// 3 ARRAYS
