@@ -62,3 +62,8 @@ console.log(array.unshift("Principio"))
 console.log(array)
 console.log(array.push("Final"))
 console.log(array)
+
+// d) Quitar un elemento del principio y del final del array (utilizar shift y pop)
+var array = ["Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio", "Julio", "Agosto", "Septiembre", "Octubre", "Noviembre", "Diciembre"]
+console.log(array.shift())
+console.log(array.pop())
