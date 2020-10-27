@@ -67,3 +67,7 @@ console.log(array)
 var array = ["Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio", "Julio", "Agosto", "Septiembre", "Octubre", "Noviembre", "Diciembre"]
 console.log(array.shift())
 console.log(array.pop())
+
+// e) Invertir el orden del array (utilizar reverse)
+var array = ["Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio", "Julio", "Agosto", "Septiembre", "Octubre", "Noviembre", "Diciembre"]
+console.log(array.reverse())
