@@ -76,3 +76,6 @@ console.log(array.reverse())
 var array = ["Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio", "Julio", "Agosto", "Septiembre", "Octubre", "Noviembre", "Diciembre"]
 console.log(array.join('-'))
 
+// g) Crear una copia del array de meses que contenga desde Mayo hasta Noviembre (utilizar slice)
+var array = ["Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio", "Julio", "Agosto", "Septiembre", "Octubre", "Noviembre", "Diciembre"]
+console.log(array.slice(4,11))
