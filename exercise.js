@@ -71,3 +71,8 @@ console.log(array.pop())
 // e) Invertir el orden del array (utilizar reverse)
 var array = ["Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio", "Julio", "Agosto", "Septiembre", "Octubre", "Noviembre", "Diciembre"]
 console.log(array.reverse())
+
+// f) Unir todos los elementos del array en un único string donde cada mes este separado por un guión - (utilizar join).
+var array = ["Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio", "Julio", "Agosto", "Septiembre", "Octubre", "Noviembre", "Diciembre"]
+console.log(array.join('-'))
+
