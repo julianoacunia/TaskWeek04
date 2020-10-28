@@ -135,3 +135,10 @@ var array = ['lunes','martes','miercoles','jueves','viernes']
 for (var i = 0; i < 5; i++){
     alert(array[i].substring(0,1).toUpperCase() + array[i].substring(1,9).toLowerCase())
 }
+
+// c) Crear una variable llamada “sentence” que tenga un string vacío, luego al array del punto a) recorrerlo con un bucle for para ir guardando cada palabra dentro de la variable sentence. Al final mostrar una única alerta con la cadena completa.
+var array = ['Lunes','Martes','Miercoles','Jueves','Viernes']
+var sentence = ''
+for ( i = 0; i < 1; i++){
+    alert(array += sentence)
+}
