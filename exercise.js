@@ -93,19 +93,40 @@ console.log(num)
 
 // b) Crear una variable “Age” que contenga un número entero entre 0 y 100 y muestre los siguientes mensajes de alerta:
 var age = 27;
+// i) “Bebe” si la edad es menor a 2 años
 if(age < 2) {
     alert('Bebe')
-} else if(age >= 2 && age <= 12) {
+}
+// “Nino” si la edad es entre 2 y 12 años
+else if(age >= 2 && age <= 12) {
     alert('Niño')
-} else if(age >= 13 && age <= 19) {
+} 
+// “Adolecente” si la edad es entre 13 y 19 años
+else if(age >= 13 && age <= 19) {
     alert('Adolescente')
-}else if(age >= 20 && age <= 30) {
+}
+// “Joven” si la edad está entre 20 y 30 años
+else if(age >= 20 && age <= 30) {
     alert('Joven')
-}else if(age >= 31 && age <= 60) {
+}
+// “Adulto” entre 31 y 60 años
+else if(age >= 31 && age <= 60) {
     alert('Adulto')
-}else if(age >= 61 && age <= 75) {
+}
+// “Adulto mayor” entre 61 y 75 años
+else if(age >= 61 && age <= 75) {
     alert('Adulto Mayor')
-}else if (age > 75) {
+}
+// “Anciano” si es mayor a 75 años
+else if (age > 75) {
     alert('Anciano')
 }
 console.log(age)
+
+// 5 FOR
+// a) Crear un array que contenga 5 palabras y recorrer dicho array utilizando un bucle for de JavaScript para mostrar una alerta utilizando cada una de las palabras.
+var array = ['Lunes','Martes','Miercoles','Jueves','Viernes']
+for (var i = 0; i < 5; i++){
+    alert(array[i])
+}
+
