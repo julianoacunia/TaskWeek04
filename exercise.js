@@ -79,3 +79,16 @@ console.log(array.join('-'))
 // g) Crear una copia del array de meses que contenga desde Mayo hasta Noviembre (utilizar slice)
 var array = ["Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio", "Julio", "Agosto", "Septiembre", "Octubre", "Noviembre", "Diciembre"]
 console.log(array.slice(4,11))
+
+// 4 If Else
+// a) Crear un número aleatorio entre 0 y 1 utilizando la función Math.random(), si el valor es mayor o igual que 0,5 mostrar una alerta con el mensaje “Greater than 0,5” y sino un alerta con el mensaje “Lower than 0,5”
+var num = Math.random()
+
+if( num >= num){ 
+    alert('Greater than 0,5')
+}
+else {
+    alert('Lower than 0,5')
+}
+
+console.log(num)
