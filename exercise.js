@@ -130,3 +130,8 @@ for (var i = 0; i < 5; i++){
     alert(array[i])
 }
 
+// b) Al array anterior convertir la primera letra de cada palabra en mayúscula y mostrar una alerta por cada palabra modificada.
+var array = ['lunes','martes','miercoles','jueves','viernes']
+for (var i = 0; i < 5; i++){
+    alert(array[i].substring(0,1).toUpperCase() + array[i].substring(1,9).toLowerCase())
+}
